@@ -47,6 +47,7 @@ public class BlinkMod implements ModInitializer {
 						var buffpisca = new StatusEffectInstance(StatusEffect.byRawId(15), 20, 0, true, false);
 						player.addStatusEffect(buffpisca);
 						LOGGER.info("O PLAYER PISCOU, LOL");
+						elapsed = 0;
 					}
 				}
 			}
