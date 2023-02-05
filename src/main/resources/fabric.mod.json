@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "blinkmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Blink Mod",
+  "description": "pisca",
   "authors": [
-    "Me!"
+    "Lumyni",
+    "Nininiya"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/felixLumyni/BlinkMod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/blinkmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.blinkmod.BlinkMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "blinkmod.mixins.json"
   ],
 
   "depends": {
