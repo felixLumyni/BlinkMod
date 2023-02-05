@@ -1,6 +1,5 @@
 package net.fabricmc.blinkmod.mixin;
 
-import net.fabricmc.blinkmod.BlinkMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		BlinkMod.LOGGER.info("This line is printed by an example mod mixin!");
+		//BlinkMod.LOGGER.info("This line is printed by an example mod mixin!");
+		return;
 	}
 }
